@@ -31,9 +31,20 @@ ADD jQuery script CDN.
 
 
 INTERACT.html
-BUTTER HOVER EFFECT on <a href='#'>
+
+BUTTEN HOVER EFFECT on <a href='#'>
+
+update GitHub link and gitnore link.
+
+
 
 
 INDEX.html
+
 on mobile view the click button is not visible.
 required space to show the < ajax >.
+
+
+
+
+
