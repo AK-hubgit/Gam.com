@@ -2,6 +2,8 @@ creating a DB-CLICK method using jQuery and some javascript.
 
 copy the code below and customize it.
 
+https://stackoverflow.com/questions/4562012/make-a-link-open-on-double-click
+
 jQuery(function($) {
     $('#golink').click(function() {
         return false;
