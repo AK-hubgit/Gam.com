@@ -23,3 +23,17 @@ jQuery(function($) {
 
 <a id='golink' href='http://stackoverflow.com' target="_blank">Go Somewhere</a>
 ADD jQuery script CDN.
+
+
+
+
+
+
+
+INTERACT.html
+BUTTER HOVER EFFECT on <a href='#'>
+
+
+INDEX.html
+on mobile view the click button is not visible.
+required space to show the < ajax >.
