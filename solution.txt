@@ -1,0 +1,23 @@
+creating a DB-CLICK method using jQuery and some javascript.
+
+copy the code below and customize it.
+
+jQuery(function($) {
+    $('#golink').click(function() {
+        return false;
+    }).dblclick(function() {
+        window.location = this.href;
+        return false;
+    }).keydown(function(event) {
+        switch (event.which) {
+            case 13: // Enter
+            case 32: // Space
+                window.location = this.href;
+                return false;
+        }
+    });
+});
+
+
+<a id='golink' href='http://stackoverflow.com' target="_blank">Go Somewhere</a>
+ADD jQuery script CDN.
