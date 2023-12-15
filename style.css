@@ -1,0 +1,289 @@
+body {
+    margin: 0;
+    height: 100vh;
+}
+
+/* #totalbody {
+    display: none;
+    margin: 0;
+    padding: 0;
+}  */
+
+:root {
+    --navyblue:#05445E;
+    --blue:#189AB4;
+    --green:#75E6DA;
+    --grey:#D4F1F4;
+
+}
+.bg-blue {
+    background-color:#05445E;
+}
+
+/* LOADER ANIMATION */
+/* #loader {
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    border: whitesmoke 15px solid;
+    border-radius: 50%;
+    border-top: 15px solid blue;
+    position: absolute;
+    top: 25%;
+    left: 45%;
+    z-index: -1;
+    animation: loader 2s linear infinite;
+}
+@keyframes loader {
+    0% {transform: rotate(0deg);}
+    50% {transform: rotate(360deg);}
+    50% {transform: rotate(-360deg);}
+    100% {transform: rotate(0deg);}
+}  */
+
+ 
+.headercontnent {
+    /* display: none; */
+    height: fit-content;
+} 
+.headerDIV {
+    /* display: flex; */
+    background-color: var(--navyblue);
+    color: var(--grey);
+    height: 15vh;
+}
+
+.logo {
+    position: relative;
+    animation: logo 2s ease-out 1;
+}
+@keyframes logo {
+    from {right:-100px; opacity: 0.1;}
+    to {right: 0px; opacity: 1;}
+}
+.logo1 {
+    position: relative;
+    animation: logo1 3s ease-out 1;
+}
+@keyframes logo1 {
+    from {bottom:-100px; opacity: 0.1;}
+    to {bottom: 0px; opacity: 1;}
+}
+.logocontent {
+    color: var(--navyblue);
+}
+
+
+.locationColor {
+    color: var(--blue);
+}
+
+
+
+
+.headerTextColor {
+    color: var(--navyblue);
+}
+
+/* .progress-container {
+  width: 100%;
+  height: 8px;
+  background: #ccc;
+}
+
+.progress-bar {
+  height: 8px;
+  background: #04AA6D;
+  width: 0%;
+} */
+
+
+.leftArrow {
+    position: relative;
+    height: 100px;
+    width: 100px;
+    transform: rotate(315deg);
+    border: 20px solid white;
+    border-top: 20px solid var(--green);
+    border-left: 20px solid var(--green);
+}
+@media screen and (max-width:576px) {
+    .leftArrow {
+        transform: rotate(44deg);
+    }
+}
+.rightArrow {
+    position: relative;
+    height: 100px;
+    width: 100px;
+    transform: rotate(135deg);
+    border: 20px solid white;
+    border-top: 20px solid var(--green);
+    border-left: 20px solid var(--green);
+}
+@media screen and (max-width:576px) {
+    .rightArrow {
+        transform: rotate(225deg);
+    }
+}
+.continer {
+    margin-bottom: auto;
+}
+
+.continer p {
+    margin: 0;
+}
+.contenta,.contentp,.contenti {
+    display: none;
+    font-size: 4rem;                                   
+}
+.contentA,.contentP,.contentI {
+    /* display: none; */
+    font-size: 4rem;
+}
+
+
+
+
+/* ARTICLE CONTENT */
+#articlecontent {
+    height: 200px;
+}
+
+
+.bglightblue {
+    background-color: var(--navyblue);
+    color: black;
+}
+.call-P-tag {
+    margin: 0 auto;
+    border: solid 1px transparent;
+}
+.call-P-tag:hover {
+    border: solid 1px var(--blue);
+    border-radius: 5px;
+}
+
+.contact-hover {
+    display: none;
+}
+.number {
+    margin-bottom: 10px;
+    border: 1px solid none;
+    border-radius: 50%;
+    box-shadow: 5px 5px 10px var(--navyblue);
+    padding: 10px;
+}
+.callme:hover {
+    background-color: var(--blue);
+    box-shadow: none;
+}
+.callme p:hover {
+    background-color: var(--blue);
+    box-shadow: none;
+}
+.callme:hover .contact-hover {
+    display: block;
+    border-radius: 5px;
+    z-index: 1;
+    width: auto;
+    bottom: 10px;
+    padding: 10px;
+    right: 30%;
+    /* box-shadow: 5px 5px 10px var(--navyblue); */
+}
+
+.empty {
+    height: 30px;
+}
+.jobhoverContent {
+    background-color: none;
+    padding: 10px;
+    position: absolute;
+    bottom: 10px;
+    right: 0%;
+    float: left;
+    display: none;
+    border-radius: 5px;
+    justify-content: space-between;
+
+}
+.jobhoverContent p {
+    margin-bottom: 10px;
+    border: 1px solid none;
+    border-radius: 50%;
+    box-shadow: 5px 5px 10px var(--navyblue);
+}
+.svgjobhover:hover {
+    background-color: var(--blue);
+    box-shadow: none;
+}
+.jobhoverContent p:hover {
+    background-color: var(--blue);
+    box-shadow: none;
+}
+.svgjobhover:hover .jobhoverContent {
+    display: block;
+}
+
+
+
+
+
+
+
+
+/* About page */
+/* .maincontent {
+    h-100
+} */
+.boutme {
+    width: 50%;
+}
+.boutmeborder {
+    width: 30%;
+
+}
+.overlays {
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    transition: 0.5s ease;
+}
+.overlaycontiner {
+    opacity: 0.5;
+    filter: blur(4px);
+}
+.maincontent:hover .overlaycontiner {
+    opacity: 1;
+    filter: none;
+}
+
+
+
+
+
+
+.boutCVDownload {
+    width: 50%;
+}
+.overlays1 {
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    transition: 0.5s ease;
+}
+.overlaycontiner1 {
+    opacity: 0.5;
+    filter: blur(4px);
+}
+.section:hover .overlaycontiner1 {
+    opacity: 1;
+    filter: none;
+}

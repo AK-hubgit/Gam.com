@@ -1,0 +1,10 @@
+<div class="demo text-center p-4 border border-3 border-success mb-1">
+
+<h1 class="text-success mb-3 fs-3">THANK YOU FOR VISITING MY PORTFOLIO!</h1>
+<p class="text-black-50 mb-0 fs-5">I wish you have a good day.</p>
+<p class="text-black-50 mb-0 text-justify fs-5">Take a tour to get to know me <strong>(A)</strong> and the professions <strong>(P)</strong> that I am currently engaged in. </p>
+<p class="text-black-50 mb-0 fs-5">And <strong>(I)</strong> am confident that I will be able to continue collaborating with you shortly.</p>
+<br>
+<p>NOTE : <mark style="background-color:yellow;">THIS SITE IS UNDER DEVELOPMENT</mark></p>
+
+</div>
