@@ -2,8 +2,8 @@
 
 <h1 class="text-success mb-3 fs-3">THANK YOU FOR VISITING MY PORTFOLIO!</h1>
 <p class="text-black-50 mb-0 fs-5">I wish you have a good day.</p>
-<p class="text-black-50 mb-0 text-justify fs-5">Take a tour to get to ABOUT know me by clicking <strong>(A)</strong> and the professions and projects by clicking <strong>(P)</strong> that I am currently engaged in. </p>
-<p class="text-black-50 mb-0 fs-5"> To CONTACT me by clicking <strong>(I)</strong> am confident that I will be able to continue collaborating with you shortly.</p>
+<p class="text-black-50 mb-0 text-justify fs-5">Take a tour to get to <strong>ABOUT</strong> know me by clicking <strong>(A)</strong> and the <strong>PERSONAL PROJECTS</strong> by clicking <strong>(P)</strong> that I am currently engaged in. </p>
+<p class="text-black-50 mb-0 fs-5"> To <strong>CONTACT</strong> me by clicking <strong>(I)</strong> am confident that I will be able to continue collaborating with you shortly.</p>
 <br>
 <p>NOTE : <mark style="background-color:yellow;">THIS SITE IS UNDER DEVELOPMENT</mark></p>
 
