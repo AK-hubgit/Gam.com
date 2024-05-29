@@ -1,7 +1,7 @@
 <div class="demo text-center p-4 border border-3 border-success mb-1">
 
 <h1 class="text-success mb-3 fs-3">THANK YOU FOR VISITING MY PORTFOLIO!</h1>
-<h5 class="text-success mb-3 fs-3">Hover on <mark>A or P or I</mark> and click to see further Informations.</h5>
+<h5 class="text-success mb-3 fs-2">Hover on <mark>A or P or I</mark> and click to see further Informations.</h5>
 <p class="text-black-50 mb-0 fs-5">I wish you have a good day.</p>
 
 <br>
